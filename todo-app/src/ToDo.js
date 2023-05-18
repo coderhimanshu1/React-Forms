@@ -1,9 +1,10 @@
 import React from "react";
 
-const ToDo = ({ todo }) => {
-  <ol>
+const ToDo = ({ todo }) => (
+  <div>
     <li>{todo}</li>
-  </ol>;
-};
+    <button>X</button>
+  </div>
+);
 
 export default ToDo;
